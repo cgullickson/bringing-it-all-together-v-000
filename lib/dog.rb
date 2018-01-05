@@ -41,7 +41,7 @@ class Dog
     self
   end
 
-  def self.create_table
+  def self.create 
     dog = Dog.new(:name,:breed)
     dog.save
     dog
